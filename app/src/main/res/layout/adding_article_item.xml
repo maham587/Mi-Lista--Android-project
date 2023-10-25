@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view2"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:elevation="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:layout_margin="5dp">
+         <TextView
+             android:id="@+id/article_details"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+
+             android:layout_marginLeft="10dp"
+             android:textSize="15dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentLeft="true"
+             android:textStyle="bold"
+
+             />
+
+        <ImageButton
+            android:id="@+id/editing_article"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/edit_menu"
+            android:background="@color/transparent"
+            android:layout_toLeftOf="@+id/deleting_article"
+
+            android:layout_centerVertical="true"
+
+
+            />
+        <ImageButton
+            android:id="@+id/deleting_article"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/delete_asset"
+            android:background="@color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            />
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

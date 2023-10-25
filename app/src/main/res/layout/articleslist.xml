@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fianl_card_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="0dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+
+
+        >
+
+        <TextView
+            android:id="@+id/final_article_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/switch64"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_alignStart="@+id/switch64"
+            android:layout_alignParentStart="true" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch64"
+            style="@style/TextAppearance.AppCompat.Widget.Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+
+            android:text="@string/fait"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

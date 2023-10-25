@@ -1,0 +1,85 @@
+<resources>
+
+    <string name="app_name">Mi Lista</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">Mes Courses</string>
+    <string name="paramètres">"paramètres"</string>
+    <string name="mail">"contacter le dévéloppeur"</string>
+    <string name="aides">"aides"</string>
+    <string name="quitter">"quitter"</string>
+    <string name="str1">Achat à \&#160; </string>
+    <string name="str2">prévu pour le \&#160; </string>
+    <string name="str3">\&#160; à \&#160;</string>
+    <string name="str4">"Les articles"</string>
+    <string name="ajouterdescourses">"Ajouter une course"</string>
+    <string name="infos">"Les informations de la course"</string>
+    <string name="date">"Date"</string>
+    <string name="heure">"Heure"</string>
+    <string name="nomdumarche">"Nom du marché"</string>
+    <string name="description">"Description"</string>
+    <string name="creer_article">"Creez ci-dessous vos articles"</string>
+    <string name="nouvelle_course">"Nouvelle course"</string>
+    <string name="ajouter">"Ajouter"</string>
+    <string name="annuler">"Annuler"</string>
+    <string name="ajout">"Ajout d'un article"</string>
+    <string name="daccord">"D'accord"</string>
+    <string name="alerte">"Vous devez d'abord completer les informations concernant cette course : date, heure ... "</string>
+    <string name="modif">"Modification de la course"</string>
+    <string name="extended_fab_label">Ajouter une course</string>
+    <string name="no_article">"Aucun article trouvé"</string>
+    <string name="fait">"fait</string>
+    <string name="Modifier">Modifier</string>
+    <string name="Nom">Nom</string>
+    <string name="quantite">Quantité</string>
+    <string name="modif_art">"Modifier l'article"</string>
+    <string name="empty">"Votre liste est vide"</string>
+    <string name="your_article">Vos Articles</string>
+    <string name="deleteinfo">Voulez vous vraiment supprimer cette course ?</string>
+    <string name="oui">oui</string>
+    <string name="non">non</string>
+    <string name="Mi">Mi Lista</string>
+    <string name="saveinfo">"Vous devez d'abord sauvegarder avant de quitter cette page !"</string>
+    <string name="quit">"Je quitte sans sauvegarder"</string>
+    <string name="error">"Nous n'avons pas pu continuer ce processus !"</string>
+
+    <string name="helptext">"A Lire attentivement s'il vous plaît.\n\nVous pouvez créer une nouvelle course en appuyant sur le boutton en bas à droite.\nVous serez envoyé sur une page où vous allez rentrer les informations
+        de votre course comme la date, l'heure, les articles à acheter.\n\nUne fois cela terminé, il vous suffit de cliquer sur le boutton en haut à droite de
+        la page pour sauvegarder votre course.\nNe quittez jamais cette page sans sauvegarder votre course.\n\nEt vous aurez enfin accès à la course sur la page d'accueil, il vous suffit donc de cliquer pour voir vos articles et faire votre achat.\n\nVous
+        pouvez également partager la liste de votre course.\nPour d'autres informations, contactez nous sur notre mail ou sur Playstore."</string>
+
+    <array name="descriptions">
+        <item name="1">Achat journalier</item>
+        <item name="2">Achat hebdomadaire</item>
+        <item name="3">Achat mensuel</item>
+        <item name="4">Achat annuel</item>
+        <item name="5">Achat de la fête</item>
+        <item name="6">Achat pour une autre occasion</item>
+
+    </array>
+
+    <array name="quantity">
+        <item name="0">unité</item>
+        <item name="1">boite</item>
+        <item name="2">bouteille</item>
+        <item name="3">carton</item>
+        <item name="4">sachet</item>
+        <item name="5">packet</item>
+        <item name="6">lot</item>
+        <item name="7">gramme</item>
+        <item name="8">Kg</item>
+        <item name="9">Litre</item>
+        <item name="10">alvéole</item>
+
+
+
+    </array>
+    <string name="title_activity_main5">MainActivity</string>
+</resources>

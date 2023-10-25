@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/shopping"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/shopping"/>
+
+
+    <ProgressBar
+
+        android:id="@+id/circle_progress"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:theme="@style/AppTheme.WhiteAccent"
+        android:minWidth="100dp"
+        android:minHeight="100dp"
+        android:progress="1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:id="@+id/empty_viwer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+
+         >
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:background="@color/classic_blue"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+        <ImageView
+            android:id="@+id/folder"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/folder"
+            />
+        <TextView
+            android:id="@+id/addind_text"
+            android:layout_below="@id/folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:textSize="15sp"
+            android:textColor="#808080"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/LISTS_layout"
+            android:layout_below="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fab"
+            android:orientation="vertical"
+             >
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/list_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/banner"
+            android:layout_margin="@dimen/fab_margin"
+
+            android:layout_alignParentRight="true"
+            app:srcCompat="@android:drawable/ic_input_add"
+            />
+
+        <!--<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/banner"
+            android:layout_margin="@dimen/fab_margin"
+
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/second_fragment_label"
+            android:text="@string/extended_fab_label"
+            app:icon="@android:drawable/ic_input_add"/>-->
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5px"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8964829217767208/2950402324">
+        </com.google.android.gms.ads.AdView>
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
